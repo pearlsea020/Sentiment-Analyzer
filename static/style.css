@@ -1,0 +1,143 @@
+body {
+    background-image: linear-gradient(to bottom left,#25F3E1, #2A66E7);
+}
+
+.content-wrapper {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    color: white;
+    opacity: 1;
+    margin: 24px;
+}
+
+.container-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.form {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 100;
+    width: 80%;
+    margin-bottom: 100px;
+}
+
+.form * {
+    margin: 10px;
+}
+
+.my-go-btn {
+    width: 16%;
+    color: white;
+    background-color: #7c37ed;
+    border-color: #7c37ed;
+    border-radius: 24px; 
+    padding-top:9px; 
+    padding-bottom:9px; 
+    padding-right:14px; 
+    padding-left: 14px; 
+    transition: 0.3s;
+}
+
+.my-go-btn:hover {
+    background-color: #7742CE;
+    border-color: #7742CE;
+}
+
+.form-control {
+    border-radius: 24px;
+    padding-top:12px; 
+    padding-bottom:12px; 
+}
+
+/* Navbar */
+
+.my-navbar-subtext {
+    opacity: 0.9;
+    color:white;
+}
+
+.navbar-text {
+    color: white;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.navbar-text:hover {
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+/* Blobs and Waves */
+
+.big-top-left-blob {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: -3;
+    width: 100%;
+    height: 100%;
+}
+
+.small-top-left-blob {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.funky-blob {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+}
+
+.small-bottom-right-blob {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.funky-blob-bottom-right {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5; 
+}
+
+.wave {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
+
